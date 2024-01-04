@@ -7,7 +7,7 @@ const DataProps = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1khypdw', 'template_mfc41sm', form.current, 'OHVRqstO7kHd42enc')
+    emailjs.sendForm('service_1khypdw', 'template_dngp8jf', form.current, 'OHVRqstO7kHd42enc')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
